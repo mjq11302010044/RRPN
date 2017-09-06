@@ -6,7 +6,7 @@ https://arxiv.org/abs/1703.01086
 
 ### License
 
-RRPN is released under the MIT License (refer to the LICENSE file for details).
+RRPN is released under the MIT License (refer to the LICENSE file for details). This project is for research purpose only, further use for RRPN should contact authors.
 
 ### Citing RRPN
 
