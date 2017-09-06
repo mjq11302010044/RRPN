@@ -930,6 +930,7 @@ def get_bot_img(mode):
 	return im_infos
 
 if __name__ == "__main__":
+
 	rrpn_test_ICDAR2015("test", "exp", "vgg16_faster_rcnn_iter_450000.caffemodel", "test")
 
 	

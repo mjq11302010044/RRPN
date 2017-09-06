@@ -107,7 +107,7 @@ if __name__ == '__main__':
     caffe.set_mode_gpu()
     caffe.set_device(args.gpu_id)
 
-    output_dir = ""
+    output_dir = "./"
     imdb = []
 
     print args.imdb_name

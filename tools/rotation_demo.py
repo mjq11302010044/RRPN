@@ -578,7 +578,6 @@ if __name__ == '__main__':
     im_names = []
     gt_boxes = []	
     
-    #demo_dir = './data/demo/'
     demo_dir = './data/demo'
     for img in os.listdir(demo_dir):
 	# im_names.append(rdb['image'])

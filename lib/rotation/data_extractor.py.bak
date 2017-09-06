@@ -23,6 +23,12 @@ def get_rroidb(mode):
 		count += len(roi["boxes"])
 	print "the text instance of total: ", count
 
+
+	#rrc_count = 0
+
+	#for roi in L_ICDAR2015_RRC:
+	#	rrc_count += len(roi["boxes"])
+	#print "the text instance of ICDAR2015_RRC: ", rrc_count
 	
 	return L_DATASET
 
