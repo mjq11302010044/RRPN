@@ -8,7 +8,7 @@ import pickle
 
 trigger_int = 0
 
-def get_rroidb(mode):	
+def get_rroidb():	
 
 	L_DATASET = []
 
@@ -23,7 +23,6 @@ def get_rroidb(mode):
 		count += len(roi["boxes"])
 	print "the text instance of total: ", count
 
-	
 	return L_DATASET
 
 
