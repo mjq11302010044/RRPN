@@ -2,7 +2,7 @@
 
 # Arbitrary-Oriented Scene Text Detection via Rotation Proposals
 
-By Jianqi Ma, Weiyuan Shao, etc.
+https://arxiv.org/abs/1703.01086
 
 ### License
 
