@@ -131,4 +131,4 @@ Trained RRPN networks are saved under:(We set the directory to './' by default.)
 ```
 One can change the directory in variable `output_dir` in `$RRPN_ROOT/tools/train_net.py`
 
-Any question about this project please send message to mjq11302010044@gmail.com, and enjoy it!
+Any question about this project please send message to Jianqi Ma(mjq11302010044@gmail.com), and enjoy it!
