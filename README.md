@@ -22,7 +22,8 @@ If you find RRPN useful in your research, please consider citing:
 1. [Requirements: software](#requirements-software)
 2. [Requirements: hardware](#requirements-hardware)
 3. [Basic installation](#installation-sufficient-for-the-demo)
-4. [Demo](#demo)5. [Beyond the demo: training and testing](#beyond-the-demo-installation-for-training-and-testing-models)
+4. [Demo](#demo)
+5. [Beyond the demo: training and testing](#beyond-the-demo-installation-for-training-and-testing-models)
 
 ### Requirements: software
 
