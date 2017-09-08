@@ -9,7 +9,6 @@ https://arxiv.org/abs/1703.01086
 RRPN is released under the MIT License (refer to the LICENSE file for details). This project is for research purpose only, further use for RRPN should contact authors.
 
 ### Citing RRPN
-
 If you find RRPN useful in your research, please consider citing:
 
     @article{Jianqi17RRPN,
@@ -36,7 +35,7 @@ If you find RRPN useful in your research, please consider citing:
   WITH_PYTHON_LAYER := 1
   # Unrelatedly, it's also recommended that you use CUDNN
   USE_CUDNN := 1
-6  ```
+  ```
   You can download my [Makefile.config](http://www.cs.berkeley.edu/~rbg/fast-rcnn-data/Makefile.config) for reference.
 2. Python packages you might not have: `cython`, `python-opencv`, `easydict`
 
