@@ -72,7 +72,7 @@ If you find RRPN useful in your research, please consider citing:
 
 5. Download pre-computed RRPN detectors
     ```Shell
-    Trained VGG16 download link: https://drive.google.com/open?id=0B5rKZkZodGIsV2RJUjVlMjNOZkE
+    Trained VGG16 model download link: https://drive.google.com/open?id=0B5rKZkZodGIsV2RJUjVlMjNOZkE
     
     ```
 
