@@ -23,8 +23,7 @@ If you find RRPN useful in your research, please consider citing:
 1. [Requirements: software](#requirements-software)
 2. [Requirements: hardware](#requirements-hardware)
 3. [Basic installation](#installation-sufficient-for-the-demo)
-4. [Demo](#demo)
-5. [Beyond the demo: training and testing](#beyond-the-demo-installation-for-training-and-testing-models)
+4. [Demo](#demo)5. [Beyond the demo: training and testing](#beyond-the-demo-installation-for-training-and-testing-models)
 
 ### Requirements: software
 
@@ -46,7 +45,6 @@ If you find RRPN useful in your research, please consider citing:
 1. For training the end-to-end version of RRPN with VGG16, 4~5G of GPU memory is sufficient (using CUDNN)
 
 ### Installation (sufficient for the demo)
-
 1. Clone the RRPN repository
   ```Shell
   # git clone https://github.com/mjq11302010044/RRPN.git
@@ -85,7 +83,7 @@ If you find RRPN useful in your research, please consider citing:
 *After successfully completing [basic installation](#installation-sufficient-for-the-demo)*, you'll be ready to run the demo.
 
 To run the demo
-t```Shell
+```Shell
 cd $RRPN_ROOT
 python ./tools/rotation_demo.py
 ```
