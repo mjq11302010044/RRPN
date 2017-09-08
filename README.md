@@ -85,7 +85,7 @@ If you find RRPN useful in your research, please consider citing:
 *After successfully completing [basic installation](#installation-sufficient-for-the-demo)*, you'll be ready to run the demo.
 
 To run the demo
-```Shell
+t```Shell
 cd $RRPN_ROOT
 python ./tools/rotation_demo.py
 ```
@@ -136,4 +136,4 @@ Trained RRPN networks are saved under:(We set the directory to './' by default.)
 ```
 One can change the directory in variable `output_dir` in `$RRPN_ROOT/tools/train_net.py`
 
-Any question about this project please send message to Jianqi Ma(mjq11302010044@gmail.com), and enjoy i
+Any question about this project please send message to Jianqi Ma(mjq11302010044@gmail.com), and enjoy it!
