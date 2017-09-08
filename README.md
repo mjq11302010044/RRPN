@@ -91,7 +91,7 @@ The txt results will be saved in `$RRPN_ROOT/result`
 
 ### Beyond the demo: installation for training and testing models
 
-You can using the function `get_rroidb()` in `$RRPN_ROOT/lib/rotation/data_extractor.py` to manage your training data:
+You can use the function `get_rroidb()` in `$RRPN_ROOT/lib/rotation/data_extractor.py` to manage your training data:
 
 	Each training sample should be managed in a python dict like:
 
