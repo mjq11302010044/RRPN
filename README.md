@@ -123,6 +123,11 @@ cd $RRPN_ROOT
 VGG16 comes from the [Caffe Model Zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo), but is provided here for your convenience.
 ZF was trained at MSRA.
 
+Then you can train RRPN by typing:
+```
+./experiment/scripts/faster_rcnn_end2end.sh [GPU_ID] [NET] rrpn
+```
+[NET] usually takes `VGG16`
 
 Trained RRPN networks are saved under:(We set the directory to './' by default.)
 
@@ -131,4 +136,4 @@ Trained RRPN networks are saved under:(We set the directory to './' by default.)
 ```
 One can change the directory in variable `output_dir` in `$RRPN_ROOT/tools/train_net.py`
 
-Any question about this project please send message to Jianqi Ma(mjq11302010044@gmail.com), and enjoy it!
+Any question about this project please send message to Jianqi Ma(mjq11302010044@gmail.com), and enjoy i
