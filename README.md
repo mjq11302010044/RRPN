@@ -112,7 +112,7 @@ You can use the function `get_rroidb()` in `$RRPN_ROOT/lib/rotation/data_extract
 
 ### Download pre-trained ImageNet models
 
-Pre-trained ImageNet models can be downloaded for the three networks described in the paper: ZF and VGG16.
+Pre-trained ImageNet models can be downloaded for the networks described in the paper: VGG16.
 
 ```Shell
 cd $RRPN_ROOT
