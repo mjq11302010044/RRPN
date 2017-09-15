@@ -6,10 +6,9 @@ https://arxiv.org/abs/1703.01086
 
 ### License
 
-RRPN is released under the MIT License (refer to the LICENSE file for details).
+RRPN is released under the MIT License (refer to the LICENSE file for details). This project is for research purpose only, further use for RRPN should contact authors.
 
 ### Citing RRPN
-
 If you find RRPN useful in your research, please consider citing:
 
     @article{Jianqi17RRPN,
@@ -46,7 +45,6 @@ If you find RRPN useful in your research, please consider citing:
 1. For training the end-to-end version of RRPN with VGG16, 4~5G of GPU memory is sufficient (using CUDNN)
 
 ### Installation (sufficient for the demo)
-
 1. Clone the RRPN repository
   ```Shell
   # git clone https://github.com/mjq11302010044/RRPN.git
@@ -74,7 +72,7 @@ If you find RRPN useful in your research, please consider citing:
 
 5. Download pre-computed RRPN detectors
     ```Shell
-    download link: TODO
+    Trained VGG16 model download link: https://drive.google.com/open?id=0B5rKZkZodGIsV2RJUjVlMjNOZkE
     
     ```
 
@@ -93,7 +91,7 @@ The txt results will be saved in `$RRPN_ROOT/result`
 
 ### Beyond the demo: installation for training and testing models
 
-You can using the function `get_rroidb()` in `$RRPN_ROOT/lib/rotation/data_extractor.py` to manage your training data:
+You can use the function `get_rroidb()` in `$RRPN_ROOT/lib/rotation/data_extractor.py` to manage your training data:
 
 	Each training sample should be managed in a python dict like:
 
@@ -114,7 +112,7 @@ You can using the function `get_rroidb()` in `$RRPN_ROOT/lib/rotation/data_extra
 
 ### Download pre-trained ImageNet models
 
-Pre-trained ImageNet models can be downloaded for the three networks described in the paper: ZF and VGG16.
+Pre-trained ImageNet models can be downloaded for the networks described in the paper: VGG16.
 
 ```Shell
 cd $RRPN_ROOT
@@ -123,6 +121,11 @@ cd $RRPN_ROOT
 VGG16 comes from the [Caffe Model Zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo), but is provided here for your convenience.
 ZF was trained at MSRA.
 
+Then you can train RRPN by typing:
+```
+./experiment/scripts/faster_rcnn_end2end.sh [GPU_ID] [NET] rrpn
+```
+[NET] usually takes `VGG16`
 
 Trained RRPN networks are saved under:(We set the directory to './' by default.)
 
