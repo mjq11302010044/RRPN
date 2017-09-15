@@ -523,7 +523,7 @@ def parse_args():
                         help='Use CPU mode (overrides --gpu)',
                         action='store_true')
     parser.add_argument('--net', dest='demo_net', help='Network to use [rrpn]',
-                        choices=['rrpn', 'vgg16', 'zf'], default='rrpn')
+                        choices=['rrpn', 'vgg16', 'zf'], default='vgg16')
 
     args = parser.parse_args()
 
