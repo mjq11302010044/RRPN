@@ -108,7 +108,7 @@ You can use the function `get_rroidb()` in `$RRPN_ROOT/lib/rotation/data_extract
 		'max_overlaps' : # max overlap with each gt-proposal
 		'rotated': # Random angle to rotate an image
 	}
-
+*Then assign your database to the variable 'roidb' in __main__ function of `$RRPN_ROOT/tools/train_net.py`* 
 
 ### Download pre-trained ImageNet models
 
