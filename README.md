@@ -110,6 +110,10 @@ You can use the function `get_rroidb()` in `$RRPN_ROOT/lib/rotation/data_extract
 	}
 *Then assign your database to the variable 'roidb' in __main__ function of `$RRPN_ROOT/tools/train_net.py`* 
 
+### In $RRPN_ROOT/tools/train_net.py
+116: roidb = get_rroidb("train") # change to your data manage function
+###
+
 ### Download pre-trained ImageNet models
 
 Pre-trained ImageNet models can be downloaded for the networks described in the paper: VGG16.
