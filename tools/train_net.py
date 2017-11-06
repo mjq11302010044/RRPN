@@ -115,7 +115,7 @@ if __name__ == '__main__':
 	output_dir = "."
 	roidb = get_rroidb("train")
     else:
-	imdb, roidb = combined_roidb(args.imdb_name)
+        imdb, roidb = combined_roidb(args.imdb_name)
         print ('{:d} roidb entries'.format(len(roidb)))
         #print roidb
         output_dir = get_output_dir(imdb)
