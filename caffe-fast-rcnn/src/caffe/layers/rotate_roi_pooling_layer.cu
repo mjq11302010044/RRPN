@@ -15,8 +15,9 @@ __global__ void RotateROIPoolForward(const int nthreads, const Dtype* bottom_dat
     const int width, const int pooled_height, const int pooled_width,
     const Dtype* bottom_rois, Dtype* top_data, int* argmax_data,const Dtype* info) {
     
-    int imageWidth = int(info[1]*spatial_scale+0.5);
-    int imageHeight = int(info[0]*spatial_scale+0.5);
+    // Remove 0.5 shift for height & width
+    int imageWidth = int(info[1]*spatial_scale);
+    int imageHeight = int(info[0]*spatial_scale);
   CUDA_KERNEL_LOOP(index, nthreads) {
     // (n, c, ph, pw) is an element in the pooled output
     int pw = index % pooled_width;
