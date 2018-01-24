@@ -234,7 +234,7 @@ __C.TEST.GT_MARGIN = 1.4
 __C.IMG_PADDING = 0.25
 
 # anchor setting on testing 
-__C.TEST.RATIO_GROUP = [0.125,0.2, 0.5]
+__C.TEST.RATIO_GROUP = [0.2, 0.5, 1.0]
 __C.TEST.SCALE_GROUP = []
 __C.TEST.ANGLE_GROUP = []
 
