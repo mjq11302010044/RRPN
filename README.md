@@ -16,7 +16,7 @@ If you find RRPN useful in your research, please consider citing:
         Title = {Arbitrary-Oriented Scene Text Detection via Rotation Proposals},
         journal = {IEEE Transactions on Multimedia},
         Year = {2018},
-	publisher={IEEE}
+        publisher={IEEE}
     }
 
 ### Contents
