@@ -15,8 +15,10 @@ If you find RRPN useful in your research, please consider citing:
         Author = {Jianqi Ma and Weiyuan Shao and Hao Ye and Li Wang and Hong Wang and Yingbin Zheng and Xiangyang Xue},
         Title = {Arbitrary-Oriented Scene Text Detection via Rotation Proposals},
         journal = {IEEE Transactions on Multimedia},
-        Year = {2018},
-        publisher={IEEE}
+        volume={20}, 
+        number={11}, 
+        pages={3111-3122}, 
+        year={2018}
     }
 
 ### Contents
