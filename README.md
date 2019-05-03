@@ -5,7 +5,7 @@
 https://arxiv.org/abs/1703.01086
 
 ### News
-We re-implement RRPN in pytorch 1.0! View at **https://github.com/mjq11302010044/RRPN_pytorch** for more details.
+We re-implement RRPN in pytorch 1.0! View **https://github.com/mjq11302010044/RRPN_pytorch** for more details.
 
 ### License
 
