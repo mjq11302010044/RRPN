@@ -4,6 +4,9 @@
 
 https://arxiv.org/abs/1703.01086
 
+### News
+- We re-implement RRPN in pytorch 1.0! View at https://github.com/mjq11302010044/RRPN_pytorch for more details.
+
 ### License
 
 RRPN is released under the MIT License (refer to the LICENSE file for details). This project is for research purpose only, further use for RRPN should contact authors.
