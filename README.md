@@ -5,7 +5,8 @@
 https://arxiv.org/abs/1703.01086
 
 ### News
-We re-implement RRPN in pytorch 1.0! View **https://github.com/mjq11302010044/RRPN_pytorch** for more details.
+We update RRPN in pytorch 1.0! View **https://github.com/mjq11302010044/RRPN_plusplus** for more details. Text Spotter f-measure results are 89.5 % in IC15, 92.0\% in IC13. The testing speed can reach 13.3 fps in IC13 with input shorter size of 640px !
+
 
 ### License
 
